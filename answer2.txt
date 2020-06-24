@@ -1,0 +1,1 @@
+Socket.IO is a framework that allows for bidirectional communication between client and server. It can use other methods for bidirectional communication including polling, but will use sockets when available.

@@ -1,0 +1,1 @@
+MVC model is design pattern that separates the presentation logic, controller logic, and database logic. It allows for more organized code.

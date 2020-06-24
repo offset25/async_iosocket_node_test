@@ -1,0 +1,1 @@
+Setup on server side (in .htaccess if using apache) to redirect any url and parameters to index.php. This will remove index.php from url in codeigniter.
