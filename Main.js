@@ -37,6 +37,7 @@ async function run_files_from_folder(folder,result) {
 
 async function main_function(data, result) {
 	let promise = new Promise((resolve, reject) => {
+		resolve('done');
 	});
 	await promise;
 	return result;
@@ -50,7 +51,9 @@ async function run_files_main(result) {
 	result = await run_files_from_folder(folder1,result);
 	folder1 = "folder_name3";
 	result = await run_files_from_folder(folder1,result);
+	console.log('starting main function');
 	result = await main_function(data,result);
+	console.log('end of main function');
 	//resolve(result);
 	//console.log('blahblah');
 	console.log(result);
